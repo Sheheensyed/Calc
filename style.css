@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-color: rgb(249, 237, 237);
+    height: 100vh;
+}
+
+.calculator{
+    /* background-color:darkseagreen; */
+    /* background-color: rgba(0, 0, 0, 0.249); */
+    /* background-color: rgba(252, 120, 120, 0.407); */
+    background-color: rgba(97, 238, 97, 0.4);
+    /* background-color: beige; */
+    /* background-image: linear-gradient(to top right, red,black,blue); */
+    border-radius: 20px;
+    height: 400px;
+    padding: 20px;
+}
+.rounded-pill{
+    width: 40px;
+    margin: 15px;
+}
+
+form .value input{
+    font-size: 13px;
+    border: 0;
+}
