@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container-fluid d-flex justify-content-center align-items-center w-100">
-        <div class="calculator w-100">
+        <div class="calculator md:w-75">
             <form action="">
                 <div class="value">
                     <input id="result" class="text-end rounded-pill w-75 ms-5 border-1" type="text" name="" placeholder="0" readonly onclick="display()">
@@ -21,8 +21,8 @@
                 <div class="ms-3">
                     <input class="rounded-pill shadow btn btn-outline-warning text-light" type="button" value="AC" onclick="clr()">
                     <input class="rounded-pill shadow btn btn-outline-warning text-light" type="button" value="DEL" onclick="backs()">
-                    <input class="rounded-pill shadow btn btn-outline-warning text-light" type="button" value="**" onclick="">
-                    <input class="rounded-pill shadow btn btn-outline-warning text-light" type="button" value="/" onclick="">
+                    <input class="rounded-pill shadow btn btn-outline-warning text-light" type="button" value="**" onclick="display('**')">
+                    <input class="rounded-pill shadow btn btn-outline-warning text-light" type="button" value="/" onclick="display('/')">
                 </div>
                 <div class="ms-3">
                     <input class="rounded-pill shadow btn btn-outline-warning text-light" type="button" value="7" onclick="display(7)">
