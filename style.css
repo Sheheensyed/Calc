@@ -29,3 +29,7 @@ form .value input{
     font-size: 13px;
     border: 0;
 }
+
+.equalSign{
+    width: 39%;
+}
